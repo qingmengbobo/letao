@@ -1,1 +1,46 @@
-   
+html,body{
+  height: 100%;
+}
+body{
+  padding: 45px 0 55px ;
+}
+
+// 头部
+#lt_header {
+  // 块级元素width 100%
+  // 给他加两个定位(绝对或者固定) 宽度由内容撑开
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  background-color: #0094ff;
+  top: 0;
+  left: 0;
+
+  .mui-title{
+    color: #fff;
+  }
+  .h_right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+//  身体
+.lt_view {
+height: 100%;
+overflow: scroll;
+}
+
+// 尾部
+.lt_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 55px;
+  background-color: #0094ff;
+}

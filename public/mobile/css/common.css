@@ -1,1 +1,44 @@
-/* No CSS */
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 45px 0 55px;
+}
+
+#lt_header {
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  background-color: #0094ff;
+  top: 0;
+  left: 0;
+}
+
+#lt_header .mui-title {
+  color: #fff;
+}
+
+#lt_header .h_right {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.lt_view {
+  height: 100%;
+  overflow: scroll;
+}
+
+.lt_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 55px;
+  background-color: #0094ff;
+}
