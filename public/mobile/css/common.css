@@ -4,6 +4,12 @@ html, body {
 
 body {
   padding: 45px 0 55px;
+  background-color: #fff;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 #lt_header {
@@ -42,4 +48,28 @@ body {
   left: 0;
   height: 55px;
   background-color: #0094ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lt_footer a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.lt_footer a .fa {
+  font-size: 16px;
+}
+
+.lt_footer a .link_name {
+  font-size: 13px;
+}
+
+.lt_footer .active {
+  color: orange;
 }

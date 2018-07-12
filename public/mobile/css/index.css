@@ -1,1 +1,86 @@
-/* No CSS */
+.lt_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+.lt_nav > a {
+  width: 33.33%;
+}
+
+.lt_active {
+  padding: 10px;
+}
+
+.lt_active a:nth-child(1) {
+  float: left;
+  width: 67%;
+}
+
+.lt_active a:nth-child(2) {
+  float: right;
+  width: 33%;
+}
+
+.lt_active a:nth-child(3) {
+  float: left;
+  width: 67%;
+}
+
+.brand_list {
+  padding: 10px;
+}
+
+.brand_list .brand_item .brand_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.brand_list .brand_item .brand_content > a {
+  width: 25%;
+}
+
+.brand_list .brand_sport .brand_s_content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.brand_list .brand_sport .brand_s_content ul li {
+  width: 49%;
+  text-align: center;
+  border: 1px solid #000;
+  margin-bottom: 3px;
+  padding: 10px 0;
+}
+
+.brand_list .brand_sport .brand_s_content ul li > .goods_name {
+  font-size: 14px;
+  color: #888;
+  overflow: hidden;
+  height: 40px;
+}
+
+.brand_list .brand_sport .brand_s_content ul li > .goods_price .new_price {
+  color: red;
+  font-size: 13px;
+}
+
+.brand_list .brand_sport .brand_s_content ul li > .goods_price del {
+  font-size: 12px;
+  color: #888;
+}

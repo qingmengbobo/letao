@@ -3,7 +3,14 @@ html,body{
 }
 body{
   padding: 45px 0 55px ;
+  background-color: #fff;
 }
+
+img{
+  display: block;
+  width: 100%;
+}
+
 
 // 头部
 #lt_header {
@@ -44,4 +51,20 @@ position: relative;
   left: 0;
   height: 55px;
   background-color: #0094ff;
+  display: flex;
+  a{
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+    .fa{
+      font-size: 16px;
+    }
+    .link_name{
+      font-size: 13px;
+    }
+  }
+  .active{
+    color: orange;
+  }
 }
