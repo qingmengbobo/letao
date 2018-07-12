@@ -31,7 +31,8 @@ body {
 
 .lt_view {
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
+  position: relative;
 }
 
 .lt_footer {

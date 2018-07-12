@@ -32,7 +32,8 @@ body{
 //  身体
 .lt_view {
 height: 100%;
-overflow: scroll;
+overflow: hidden;
+position: relative;
 }
 
 // 尾部
