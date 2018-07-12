@@ -61,6 +61,8 @@ nodejs的版本号为 **10.3.0**
    ```bash
    # 设置 
    npm config set registry https://registry.npm.taobao.org
+   # 设置
+   npm config set registry http://registry.npm.taobao.org
    # 查看是否设置成功
    npm config get registry //提示 https://registry.npm.taobao.org 则为成功
    ```
