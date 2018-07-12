@@ -26,6 +26,14 @@ img{
   .mui-title{
     color: #fff;
   }
+  .h_left{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
   .h_right{
     position: absolute;
     top: 50%;

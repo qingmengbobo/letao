@@ -2,32 +2,33 @@
 typora-copy-images-to: medias
 ---
 
-# 1. 移动电商项目
+# 移动电商项目
 
-## 1.1. 介绍
+## 介绍
   乐淘商城是一个针对鞋类商品的在线交易平台，合适就穿，不合适就换。乐淘为您支付退换货的物流费用，以最快速度把换好的鞋子送到您手中，最好的品牌，最低的价格。乐淘族凭借雄厚的资金实力和在电子商务业界的诚信积累，与Nike、Adidas、Converse、NewBalance等国际大牌深度合作。保证了产品与专卖店同步更新，让您不出家门能最快速度买到当季新款名牌鞋。乐淘族坚持自营，减少中间环节，让利给用户，因此所有产品价格均低于传统销售渠道。
-## 1.2. 项目模块
+## 项目模块
 
 ![1516374642608](medias/1516374642608.png)
 
-## 1.3. 项目架构
+## 项目架构
 
 ![1516374954115](medias/1516374954115.png)
 
-# 2. 资源地址
+# 资源地址
 
-| 名称         | 地址                                          |
-| ------------ | --------------------------------------------- |
-| demo-前台    | http://letao.ak48.xyz/mobile/index.html       |
-| demo-后台    | http://letao.ak48.xyz/admin/login.html        |
-| 上课代码     | https://gitee.com/ukSir/letao19.git           |
-| Mui官网      | http://dev.dcloud.net.cn/mui/                 |
-| Mui-示例     | http://www.dcloud.io/hellomui/                |
-| Font-awesome | http://fontawesome.dashgame.com/              |
-| arttemplate  | http://aui.github.io/art-template/zh-cn/docs/ |
-| zepto        | http://www.css88.com/doc/zeptojs_api/         |
+| 名称           | 地址                                          |
+| -------------- | --------------------------------------------- |
+| demo-前台      | http://letao.ak48.xyz/mobile/index.html       |
+| demo-后台      | http://letao.ak48.xyz/admin/login.html        |
+| 上课代码       | https://gitee.com/ukSir/letao19.git           |
+| Mui官网        | http://dev.dcloud.net.cn/mui/                 |
+| Hello-Mui-示例 | http://www.dcloud.io/hellomui/                |
+| mui辅助类      | http://www.mubrand.com/?post=19               |
+| Font-awesome   | http://fontawesome.dashgame.com/              |
+| arttemplate    | http://aui.github.io/art-template/zh-cn/docs/ |
+| zepto          | http://www.css88.com/doc/zeptojs_api/         |
 
-# 3. 帐号和密码
+# 帐号和密码
 
 为了确保软件的环境都一样 建议我们统一所有的用户名和密码
 
@@ -38,17 +39,17 @@ typora-copy-images-to: medias
 | 前台用户名和密码                | itcast | 111111 |
 | 后台用户名和密码                | root   | 123456 |
 
-# 4. 项目环境搭建
+# 项目环境搭建
 
 因为本项目的启动需要配置好相关环境,因此在配置环境的时候要仔细阅读文档,尽量减少错误
 
-## 4.1. 安装nodejs
+## 安装nodejs
 
 nodejs的版本号为 **10.3.0**  
 
 [在线下载地址](https://nodejs.org/download/release/v8.9.1/)
 
-### 4.1.1. 步骤:
+### 步骤:
 
 1. 直接双击打开安装文件  **node-v10.3.0-x64.msi**  为了减少出错,建议将安装路径修改为 `D:\nodejs\`
 
@@ -61,15 +62,13 @@ nodejs的版本号为 **10.3.0**
    ```bash
    # 设置 
    npm config set registry https://registry.npm.taobao.org
-   # 设置
-   npm config set registry http://registry.npm.taobao.org
    # 查看是否设置成功
    npm config get registry //提示 https://registry.npm.taobao.org 则为成功
    ```
 
 
 
-## 4.2. 导入数据
+## 导入数据
 
 mysql安装成功后,此时还没有任何数据,因此 我们需要将数据填充到mysql中.
 
@@ -84,7 +83,7 @@ mysql安装成功后,此时还没有任何数据,因此 我们需要将数据填
 ![运行sql文件](medias/运行sql文件.gif)
 
 
-## 4.3. 启动项目
+## 启动项目
 
 在你想要保存项目的位置 打开git bash 开始克隆代码
 
@@ -112,7 +111,7 @@ npm run start
 
 
 
-### 4.3.1. 修改数据库连接密码
+### 修改数据库连接密码
 
 此时打开项目代码 **根目录/models/db.js**, 
 
@@ -152,7 +151,7 @@ http://127.0.0.1:3100/category/queryTopCategory
 
 ![1531312107197](medias/1531312107197.png)
 
-### 4.3.2. 修改默认端口号
+### 修改默认端口号
 
 如果在本机中需要同时运行多个乐淘的项目,因为每一个项目占用的端口号不一样.或者存在端口号占用,可以按照以下表格进行配置
 
@@ -176,7 +175,7 @@ PORT=3100 npm start
 
 
 
-## 4.4. 总结
+## 总结
 
 ​	当重启电脑后,想要再次启动项目时,执行以下步骤确保项目启动成功
 
@@ -200,6 +199,6 @@ PORT=3100 npm start
 
 
 
-# 5. 数据接口
+# 数据接口
 
 [接口文档](api.md)

@@ -25,6 +25,16 @@ img {
   color: #fff;
 }
 
+#lt_header .h_left {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
 #lt_header .h_right {
   position: absolute;
   top: 50%;
